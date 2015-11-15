@@ -1,0 +1,52 @@
+{
+	"states":[
+		"burn",
+		"poison",
+		"freeze",
+		"paralyze",
+		"confuse",
+		"stun",
+		"blind",
+		"fatigued",
+		"trapped",
+	],
+	"stats":[
+		"attack",
+		"defense",
+		"sp. attack",
+		"sp. defense",
+		"speed"
+	],
+	"types": [
+		"fire",
+		"earth",
+		"lightning",
+		"wind",
+		"ice",
+		"water",
+	],
+	"typeBoosts": {
+		"fire": "attack",
+		"earth": "defense",
+		"lightning": "sp. attack",
+		"wind": "speed",
+		"ice": "sp. defense",
+		"water": "speed"
+	},
+	"typeNerfs": {
+		"fire": "sp. defense",
+		"earth": "sp. attack",
+		"lightning": "speed",
+		"wind": "defense",
+		"ice": "speed",
+		"water": "attack"	
+	},
+	"typeStatuses": {
+		"fire": "burn",
+		"earth": "trapped",
+		"lightning": "paralyze",
+		"wind": "confuse",
+		"ice": "freeze",
+		"water": "poison"
+	}
+}
