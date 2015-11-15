@@ -23,7 +23,7 @@
 		"lightning",
 		"wind",
 		"ice",
-		"water"
+		"water",
 	],
 	"typeBoosts": {
 		"fire": "attack",
